@@ -1,0 +1,17 @@
+body {
+  font-family: monospace;
+  line-height: 1; }
+
+h1, h2, h3, h4, h5 {
+  margin: 20px 0 5px; }
+  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child {
+    margin: 0 0 5px; }
+
+.simple-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2; }
+  .simple-list li {
+    padding: 0;
+    margin: 0; }
