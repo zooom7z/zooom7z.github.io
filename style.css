@@ -5,9 +5,10 @@ body {
 	margin: 0; }
 
 summary {
+	display: block;
 	outline: none; }
 
-details summary::-webkit-details-marker {
+summary::-webkit-details-marker {
     display: none; }
 
 br {
