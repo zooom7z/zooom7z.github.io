@@ -4,6 +4,29 @@ body {
 	background-color: #F1F3E2;
 	margin: 0; }
 
+summary {
+	list-style: none;
+	display: block;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none; }
+details {
+	list-style: none;
+	display: block;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none; }
+
+br {
+	list-style: none;
+	display: block;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	text-decoration: none; }
+	
 img { 
 	display: block; }
 
