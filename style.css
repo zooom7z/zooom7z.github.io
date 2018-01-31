@@ -30,6 +30,8 @@ br {
 img { 
 	display: block; }
 
+a {
+	color: blue; }
 a:hover {
 	text-decoration: none; }
 
