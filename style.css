@@ -5,46 +5,24 @@ body {
 	margin: 0; }
 
 summary {
-
-	outline: none;
-	margin: 0;
-	text-decoration: none; }
-details {
-	
-	outline:none;
-	margin: 0;
-	text-decoration: none; }
+	outline: none; }
 
 details summary::-webkit-details-marker {
-    display: none;
-}
+    display: none; }
 
 br {
-	margin: 0;
-	text-decoration: none; }
+	margin: 0; }
 	
 img { 
 	display: block; }
 
 a {
-	color: blue; }
+	color:blue; }
 a:hover {
 	text-decoration: none; }
 
-nav {
-	font-size: 14px; }
-nav a {
-	display: inline-block;
-	text-decoration: none; }
-
-hr {
-	margin: 0; }
-
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5 ,h6 {
 	margin: 20px 0 5px; }
-h6 {
-	font-size:100px;
-	margin: 10px 0 5px; }
 h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
     margin: 0 0 5px; }
 
