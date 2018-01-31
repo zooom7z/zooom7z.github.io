@@ -5,25 +5,21 @@ body {
 	margin: 0; }
 
 summary {
-	list-style: none;
-	display: block;
-	outline: 0;
-	padding: 0;
+
+	outline: none;
 	margin: 0;
 	text-decoration: none; }
 details {
-	list-style: none;
-	display: block;
-	outline: 0;
-	padding: 0;
+	
+	outline:none;
 	margin: 0;
 	text-decoration: none; }
 
+details summary::-webkit-details-marker {
+    display: none;
+}
+
 br {
-	list-style: none;
-	display: block;
-	outline: 0;
-	padding: 0;
 	margin: 0;
 	text-decoration: none; }
 	
