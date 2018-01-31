@@ -8,7 +8,13 @@ summary {
 	display: block;
 	outline: none; }
 
+details {
+	display: block; }
+
 summary::-webkit-details-marker {
+    display: none; }
+
+details summary::-webkit-details-marker {
     display: none; }
 
 br {
