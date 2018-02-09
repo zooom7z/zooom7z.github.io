@@ -21,10 +21,12 @@ br {
 img {
 	display: block; }
 
-a {
-	color:blue; }
-a:hover {
-	text-decoration: none; }
+	a, summary {
+		color:blue;
+		text-decoration: underline; }
+	a:hover, summary:hover {
+		text-decoration: none;
+		cursor: pointer; }
 
 h1, h2, h3, h4, h5 ,h6 {
 	margin: 20px 0 5px; }
