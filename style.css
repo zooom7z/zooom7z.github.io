@@ -4,6 +4,14 @@ body {
 	background-color: #F1F3E2;
 	margin: 0; }
 
+div { 
+    width: 500px; /* Ширина */
+    padding: 0px; /* Поля */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+   }
+	
 summary {
 	display: block;
 	outline: none; }
@@ -28,11 +36,16 @@ img {
 		text-decoration: none;
 		cursor: pointer; }
 
-h1, h2, h3, h4, h5 ,h6 {
+h1, h2, h3, h5 ,h6 {
 	margin: 20px 0 5px; }
-h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child {
+h1:first-child, h2:first-child, h3:first-child, h5:first-child, h6:first-child {
     margin: 0 0 5px; }
-
+	
+h4 {
+	margin: 20px 0 0px; }
+h4:first-child {
+    margin: 10px 0 0px; }
+	
 .simple-list {
 	list-style: none;
 	padding: 0;
