@@ -4,10 +4,6 @@ body {
 	background-color: #F1F3E2;
 	margin: 0; }
 
-div { 
-    width: 500px; /* Ширина */
-    padding: 0px; /* Поля */
-   }
 	
 summary {
 	display: block;
