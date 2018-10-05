@@ -23,11 +23,9 @@ br {
 	padding: 0;
 	margin: 0; }
 
-@media all and (max-width: 768px) {
-/* 768px is usually the width of tablets in portrait orientation */
-/* You can use any other size you see fit */
+@media only screen and (max-width: 600px) {
 
-    img {width: 100%;}
+    img#underconstruction {width: 100%; height: 100%; margin: 0; padding; 0;}
 }
 
 	a, summary {
