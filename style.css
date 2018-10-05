@@ -19,6 +19,11 @@ br {
 	padding: 0;
 	margin: 0; }
 
+div { 
+    width: 500px; /* Ширина */
+    padding: 0px; /* Поля */
+   }
+	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
