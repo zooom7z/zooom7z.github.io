@@ -49,6 +49,7 @@
 	<!-- /Yandex.Metrika counter -->
 
 	<img src="files/japan.gif" alt="~Japan~">
+	<div class="image-top"></div>
     <h2>teeworlds</h2>
 	<ul class="simple-list">
 		<a href="files/TDTW%200.6.1%20%5B0.2%5D%20Windows%20(x32).rar">tdtw 0.6.1</a>
@@ -131,6 +132,21 @@
 	<img src="files/sakura.png" alt="~Sakura~">
 
 </main>
-	<!-- fuck you -->
+
+const backgrounds = [
+    {
+        pic: `https://zooom7z.github.io/files/japan.gif`,
+        color: '#F1F3E2'
+    },
+    {
+        pic: `https://preview.redd.it/v29tjn2d2cq11.jpg`,
+        color: `#FFFFFF`
+    }
+];
+
+const image = document.createElement(`img`);
+image.src = backgrounds[Math.floor(Math.random() * (backgrounds.length - 0 + 1) + 0)].pic;
+document.querySelector(`.image-top`).appendChild(image);
+
 </body>
 </html>
