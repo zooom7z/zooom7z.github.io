@@ -21,10 +21,6 @@ summary::-webkit-details-marker {
 details summary::-webkit-details-marker {
     display: none; }
 
-br {
-	padding: 0;
-	margin: 0; }
-
 	a, summary {
 		color:blue;
 		text-decoration: underline; }
