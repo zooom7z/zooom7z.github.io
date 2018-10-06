@@ -145,9 +145,13 @@
     }
 ];
 
-const image = document.createElement("img");
-image.src = backgrounds[Math.floor(Math.random() * (backgrounds.length - 0 + 1) + 0)].pic;
-document.querySelector(".image-top").appendChild(image);</script>
+const generated = Math.floor(Math.random() * (backgrounds.length));
+const currentBackground = backgrounds[generated];
+
+const image = document.createElement(`img`);
+image.src = currentBackground.pic;
+document.querySelector(`.image-top`).appendChild(image);
+document.querySelector(`body`).style.setProperty(`background`, currentBackground.color);</script>
 
 </body>
 </html>
