@@ -5,7 +5,7 @@ body {
 	margin: 0; }
 
 main {
-  width: 600px;
+  width: 500px;
   margin: 0 auto;
   text-align: center;
 }
@@ -23,11 +23,6 @@ details summary::-webkit-details-marker {
 br {
 	padding: 0;
 	margin: 0; }
-
-div { 
-    width: 500px; /* Ширина */
-    padding: 0px; /* Поля */
-   }
 	
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
