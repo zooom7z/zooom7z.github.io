@@ -1,16 +1,18 @@
 body {
 	font-family: monospace;
 	line-height: 1;
-	background-color: #F1F3E2;
 	margin: 0; }
 
-div { 
-    width: 500px; /* Ширина */
-    padding: 0px; /* Поля */
-    -moz-box-sizing: border-box; /* Для Firefox */
-    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
-    box-sizing: border-box; /* Для IE и Opera */
-   }
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%
+}
+
+img {
+  width: 100%;
+}
 	
 summary {
 	display: block;
@@ -21,13 +23,6 @@ summary::-webkit-details-marker {
     display: none; }
 details summary::-webkit-details-marker {
     display: none; }
-
-br {
-	padding: 0;
-	margin: 0; }
-
-img {
-	display: block; }
 
 	a, summary {
 		color:blue;
