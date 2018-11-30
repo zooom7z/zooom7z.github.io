@@ -41,6 +41,11 @@ h4 {
 h4:first-child {
     margin: 10px 0 0px; }
 	
+h5 {
+	margin: 0px 0 0px; }
+h5:first-child {
+    margin: 0px 0 0px; }
+	
 .simple-list {
 	list-style: none;
 	padding: 0;
