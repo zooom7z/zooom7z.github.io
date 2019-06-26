@@ -1,0 +1,256 @@
+/* @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500'; */
+/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400'); */
+
+body {
+	color: #F08080;
+	background-color: #161616;
+/*	font-family: "Roboto", "Helvetica", "Arial", sans-serif;  /* шрифт ссылок */
+	font-family: 'Josefin Sans', sans-serif; /* шрифт погоды */
+	font-weight: 400;
+	line-height: 1.5;
+	margin: 0 auto;
+	max-width: 50em;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+h2 {
+	color: #F08080;
+	font-size: 1.4em;
+	margin: 0 0 0.5em 0;
+	padding: 0;
+}
+
+h1, h2 {
+	user-select: none;
+}
+
+a {
+	color: #D1EEEE;
+}
+
+ul {
+	color: #D1EEEE;
+	float: left;
+	margin: 0 auto 0 auto;
+/*	overflow: hidden; эта хуйня обрезает погоду  */
+	padding: 0;
+	width: 25%;
+}
+
+li {
+	font-size: 1.1em;
+	list-style-type: none;
+	margin: 0 0 0.3em 0;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+}
+
+li a {
+	text-decoration: none;
+}
+
+#time {     /* часы */
+	font-size: 1.4em;
+	color: white;
+	user-select: none;
+	margin-top: 1em;
+}
+
+#date {     /* дата */
+	font-size: 1.4em;
+	color: white;
+	user-select: none;
+}
+
+#temp {
+	font-size: 1.4em;
+	color: white;
+	user-select: none;
+    position: absolute;
+}
+
+#search {
+    width: 50em;
+    height: 50em;
+    background-color: #161616;
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-field {
+	font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #161616;
+    border: solid 0px #161616;
+    font-size: 4rem;
+    color: #f2f2f2;
+    outline: none;
+    text-align: center;
+}
+
+#weather {
+	user-select: yes;
+}
+
+.google h2,
+.a-hover:hover {
+	color: #DC143C;
+}
+
+.social h2,
+.b-hover:hover {
+	color: #4EEE94;
+}
+
+.media h2,
+.c-hover:hover {
+	color: #87CEFA;
+}
+
+.wallpapers h2,
+.d-hover:hover {
+	color: #FFEC8B;
+}
+
+.anime h2,
+.e-hover:hover {
+	color: #ED9121;
+}
+
+.shopping h2,
+.f-hover:hover {
+	color: #8E388E;
+}
+
+.news h2,
+.g-hover:hover {
+	color: #C5C1AA;
+}
+
+.med h2,
+.med-hover:hover {
+	color: #F08080;
+}
+
+.games h2,
+.gme-hover:hover {
+	color: #FF3E96;
+}
+
+.one {
+	clear: both;
+	height: 100%;
+	margin: 0 auto 2em auto;
+	overflow: hidden;
+}
+
+.two {
+	clear: both;
+	height: 100%;
+	margin: 0 auto 2em auto;
+	overflow: hidden;
+	padding-left: 0;
+}
+
+.three {
+	height: 100%;
+	margin: 0 auto 2em auto;
+	overflow: hidden;
+}
+
+
+/******************
+	   OTHERS
+*******************/
+
+.other-links {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.other-links a{
+	color: #555;
+	font-size: 8px;
+	display: none;
+}
+
+.other-links li:hover a{
+	color: #ccc;
+}
+
+.other-links ul {
+	list-style: none;
+	height: 86px;
+	width: 45px;
+}
+
+.other-links ul:hover li a{
+	display: block!important;
+}
+
+
+
+/******************
+	   FONT
+*******************/
+
+/* vietnamese */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(fonts/Qw3FZQNVED7rKGKxtqIqX5Ecpl5tdF0hspo.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(fonts/Qw3FZQNVED7rKGKxtqIqX5Ecpl5tdV0hspo.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(fonts/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10h.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(fonts/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(fonts/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(fonts/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
